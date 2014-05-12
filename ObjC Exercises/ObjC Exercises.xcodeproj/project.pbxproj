@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EF5C584192083E4004E4204 /* TestSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF5C583192083E4004E4204 /* TestSorter.m */; };
+		6EF5C58719208923004E4204 /* Sorter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF5C58619208923004E4204 /* Sorter.m */; };
+		6EF5C58A192090F5004E4204 /* InsertionSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF5C589192090F5004E4204 /* InsertionSorter.m */; };
+		6EF5C58C19209403004E4204 /* TestInsertionSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF5C58B19209403004E4204 /* TestInsertionSorter.m */; };
+		6EF5C58F1920962B004E4204 /* RandUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF5C58E1920962B004E4204 /* RandUtils.m */; };
 		6EFC933C192081D400BC5123 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFC933B192081D400BC5123 /* Foundation.framework */; };
 		6EFC933E192081D400BC5123 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFC933D192081D400BC5123 /* CoreGraphics.framework */; };
 		6EFC9340192081D400BC5123 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFC933F192081D400BC5123 /* UIKit.framework */; };
@@ -22,7 +27,6 @@
 		6EFC9362192081D400BC5123 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFC933B192081D400BC5123 /* Foundation.framework */; };
 		6EFC9363192081D400BC5123 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFC933F192081D400BC5123 /* UIKit.framework */; };
 		6EFC936B192081D400BC5123 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EFC9369192081D400BC5123 /* InfoPlist.strings */; };
-		6EFC936D192081D400BC5123 /* ObjC_ExercisesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFC936C192081D400BC5123 /* ObjC_ExercisesTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6EF5C583192083E4004E4204 /* TestSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSorter.m; sourceTree = "<group>"; };
+		6EF5C58519208923004E4204 /* Sorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sorter.h; sourceTree = "<group>"; };
+		6EF5C58619208923004E4204 /* Sorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sorter.m; sourceTree = "<group>"; };
+		6EF5C588192090F5004E4204 /* InsertionSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertionSorter.h; sourceTree = "<group>"; };
+		6EF5C589192090F5004E4204 /* InsertionSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertionSorter.m; sourceTree = "<group>"; };
+		6EF5C58B19209403004E4204 /* TestInsertionSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestInsertionSorter.m; sourceTree = "<group>"; };
+		6EF5C58D1920962B004E4204 /* RandUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandUtils.h; sourceTree = "<group>"; };
+		6EF5C58E1920962B004E4204 /* RandUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandUtils.m; sourceTree = "<group>"; };
 		6EFC9338192081D400BC5123 /* ObjC Exercises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjC Exercises.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFC933B192081D400BC5123 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6EFC933D192081D400BC5123 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,7 +69,6 @@
 		6EFC9360192081D400BC5123 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6EFC9368192081D400BC5123 /* ObjC ExercisesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjC ExercisesTests-Info.plist"; sourceTree = "<group>"; };
 		6EFC936A192081D400BC5123 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6EFC936C192081D400BC5123 /* ObjC_ExercisesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjC_ExercisesTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +138,12 @@
 				6EFC9357192081D400BC5123 /* DetailViewController.m */,
 				6EFC9359192081D400BC5123 /* Images.xcassets */,
 				6EFC9342192081D400BC5123 /* Supporting Files */,
+				6EF5C58519208923004E4204 /* Sorter.h */,
+				6EF5C58619208923004E4204 /* Sorter.m */,
+				6EF5C588192090F5004E4204 /* InsertionSorter.h */,
+				6EF5C589192090F5004E4204 /* InsertionSorter.m */,
+				6EF5C58D1920962B004E4204 /* RandUtils.h */,
+				6EF5C58E1920962B004E4204 /* RandUtils.m */,
 			);
 			path = "ObjC Exercises";
 			sourceTree = "<group>";
@@ -145,8 +162,9 @@
 		6EFC9366192081D400BC5123 /* ObjC ExercisesTests */ = {
 			isa = PBXGroup;
 			children = (
-				6EFC936C192081D400BC5123 /* ObjC_ExercisesTests.m */,
 				6EFC9367192081D400BC5123 /* Supporting Files */,
+				6EF5C583192083E4004E4204 /* TestSorter.m */,
+				6EF5C58B19209403004E4204 /* TestInsertionSorter.m */,
 			);
 			path = "ObjC ExercisesTests";
 			sourceTree = "<group>";
@@ -259,8 +277,11 @@
 			files = (
 				6EFC934C192081D400BC5123 /* AppDelegate.m in Sources */,
 				6EFC9355192081D400BC5123 /* MasterViewController.m in Sources */,
+				6EF5C58A192090F5004E4204 /* InsertionSorter.m in Sources */,
 				6EFC9348192081D400BC5123 /* main.m in Sources */,
+				6EF5C58F1920962B004E4204 /* RandUtils.m in Sources */,
 				6EFC9358192081D400BC5123 /* DetailViewController.m in Sources */,
+				6EF5C58719208923004E4204 /* Sorter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EFC936D192081D400BC5123 /* ObjC_ExercisesTests.m in Sources */,
+				6EF5C58C19209403004E4204 /* TestInsertionSorter.m in Sources */,
+				6EF5C584192083E4004E4204 /* TestSorter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +497,7 @@
 				6EFC9372192081D400BC5123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EFC9373192081D400BC5123 /* Build configuration list for PBXNativeTarget "ObjC ExercisesTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +506,7 @@
 				6EFC9375192081D400BC5123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
